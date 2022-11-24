@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>autobiography</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="navbar">
+			<div class="logo">
+				<h2>Autobiography</h2>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="#">ARTIST</a></li>
+					<li><a href="#">EXIHIBITION</a></li>
+					<li><a href="#">EVENT</a></li>
+					<li><a href="#">VISIT US</a></li>
+				</ul>
+				<p class="lite-text">MENU</p>
+
+				<span class="close-icon" onclick="closemenu()">&#10006;</span>
+			</nav>
+
+				<span class="menu-icon" onclick="openmenu()">&#9776;</span>
+		</div>
+		<div class="content-row">
+			<div class="left-col">
+				<div class="search">
+					<input type="text" placeholder="search">
+				</div>
+
+				<hr>
+				<h1>Lorem ipsum dolor sit amet Autobiography</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco </p>
+
+				<div class="indicator">
+					<span class="active"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="right-col">
+				<img src="a.jpeg">
+			</div>
+
+		</div>		
+
+
+	</div>
+
+	<script>
+		var menu = document.getElementById("menu");
+
+		function closemenu(){
+
+			menu.style.top = "-100vh";
+
+		}
+
+		function openmenu(){
+
+			menu.style.top = "0";
+
+		}
+
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
